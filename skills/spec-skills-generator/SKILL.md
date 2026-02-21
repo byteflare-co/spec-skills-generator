@@ -1,5 +1,5 @@
 ---
-name: generate
+name: spec-skills-generator
 description: >
   A meta-skill that auto-generates three-layer specification documents (01_overview / 02_business_spec / 03_technical_spec)
   for any project, and builds /spec (spec Q&A) and /spec-maintenance (spec maintenance) skills.

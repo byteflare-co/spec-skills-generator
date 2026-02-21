@@ -24,7 +24,7 @@ This plugin analyzes your codebase and generates:
 Run the generator skill:
 
 ```
-/spec-skills-generator:generate
+/spec-skills-generator:spec-skills-generator
 ```
 
 The skill will:
