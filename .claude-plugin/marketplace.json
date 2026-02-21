@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "spec-skills-generator",
-      "source": ".",
+      "source": "./",
       "description": "Auto-generate 3-layer specification documents and maintenance skills"
     }
   ]
