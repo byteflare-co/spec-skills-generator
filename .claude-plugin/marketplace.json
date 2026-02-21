@@ -1,0 +1,11 @@
+{
+  "name": "spec-skills-generator",
+  "owner": { "name": "byteflare-co" },
+  "plugins": [
+    {
+      "name": "spec-skills-generator",
+      "source": ".",
+      "description": "Auto-generate 3-layer specification documents and maintenance skills"
+    }
+  ]
+}

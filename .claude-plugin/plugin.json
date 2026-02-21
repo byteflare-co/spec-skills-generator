@@ -1,0 +1,11 @@
+{
+  "name": "spec-skills-generator",
+  "description": "Auto-generate 3-layer specification documents (overview, business spec, technical spec) and /spec, /spec-maintenance skills for any codebase",
+  "version": "1.0.0",
+  "author": {
+    "name": "byteflare-co"
+  },
+  "repository": "https://github.com/byteflare-co/spec-skills-generator",
+  "license": "MIT",
+  "keywords": ["specification", "documentation", "spec", "code-analysis"]
+}
