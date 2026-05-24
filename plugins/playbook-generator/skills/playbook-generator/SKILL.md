@@ -36,12 +36,12 @@ playbook スキル（ブラウザ操作の手順書管理スキル）をプロ�
 以下の順で「playbook スキルの配置先」を決定する。
 
 1. **CLAUDE.md のヒント**
-   - プロジェクトルートの `CLAUDE.md` と `~/.claude/CLAUDE.md` を読み、スキル配置に関する記述（`.agents/skills/`、`~/dev/byteflare-co/claude-skills/` など）があれば候補に挙げる
+   - プロジェクトルートの `CLAUDE.md` と `~/.claude/CLAUDE.md` を読み、スキル配置に関する記述（`.agents/skills/`、`~/dev/byteflare-co/agent-skills/` など）があれば候補に挙げる
    - 例: 「`.agents/skills/` に実体を置き `.claude/skills/` から symlink」→ `.agents/skills/playbook/`
 
 2. **ディレクトリの存在チェック**
    - `.agents/skills/`（symlink 方式）が存在 → `.agents/skills/playbook/` を候補
-   - `~/dev/byteflare-co/claude-skills/`（ユーザーレベル一元管理）が存在 → 候補として提示
+   - `~/dev/byteflare-co/agent-skills/`（ユーザーレベル一元管理）が存在 → 候補として提示
    - いずれも無い → デフォルト `.claude/skills/playbook/`
 
 3. **既存の playbook スキルの検出**
@@ -60,7 +60,7 @@ playbook スキル（ブラウザ操作の手順書管理スキル）をプロ�
 playbook スキルをどこに配置しますか？
   [1] .agents/skills/playbook/（推奨: 既存を更新）
   [2] .claude/skills/playbook/（標準）
-  [3] ~/dev/byteflare-co/claude-skills/playbook/（ユーザーレベル）
+  [3] ~/dev/byteflare-co/agent-skills/playbook/（ユーザーレベル）
   [4] カスタムパスを入力
 ```
 
